@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../css/lightbox.css">
     <title>Book Store</title>
 </head>
+
 <body>
     <!-- header -->
     <header class="d-flex align-items-center">
@@ -55,7 +56,8 @@
                     </a>
                 </div>
                 <div class="col-lg-3 col-sm-6 col-10 mx-auto">
-                    <a href="img/library/library3.jpg" data-lightbox="library" data-title="Kopar Kharane library, New Mexico">
+                    <a href="img/library/library3.jpg" data-lightbox="library"
+                        data-title="Kopar Kharane library, New Mexico">
                         <img src="img/library/library3.jpg" class="img-thumbnail gallery-img">
                     </a>
                 </div>
@@ -90,10 +92,66 @@
         </div>
     </section>
     <!-- end-of-gallery -->
+
+
+    <!-- famous writers -->
+    <section class="famous-writers pb-5">
+        <div class="container-fluid">
+            <!-- title -->
+            <div class="row">
+                <div class="col text-center py-5">
+                    <h1 class="text-secondary text-uppercase font-italic common-title">
+                        The most famous writers
+                    </h1>
+                </div>
+            </div>
+            <!-- end-of-title -->
+            <div class="row">
+                <div class="col-lg-4">
+                    
+                </div>
+                <div class="col-lg-4">
+                    <div id="accordion" class="writers-accordion">
+                        <div class="card">
+                            <div class="card-header p-5">
+                                <button type="button" class="btn btn-block btn-outline-danger" data-toggle="collapse"
+                                    data-target="#collapseOne" id="button-william_shakespeare">
+                                    Willam Shakespeare</button>
+                            </div>
+                            <div class="collapse" id="collapseOne" data-parent="#accordion">
+                                <div class="card-body">
+                                    <div class="card">
+                                        <img src="img/writters/william_shakespeare.jpg" class="card-img-top img-fluid">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                It is a long established fact that a reader will be distracted by the
+                                                readable content of a page when looking at its layout. The point of
+                                                using Lorem Ipsum is that it has a more-or-less normal distribution of
+                                                letters, as opposed to using 'Content here, content here', making it
+                                                look like readable English. Many desktop publishing packages and web
+                                                page
+                                            </p>
+                                            <a href="#" class="btn btn-primary btn-block">More Books</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of famous writers -->
+
     <script src="js/jquery-4.0.0.min.js"></script>
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/script.js"></script>
     <script src="js/lightbox.js"></script>
 </body>
+
 </html>
